@@ -1,0 +1,29 @@
+Tutorial 5.2 Theory Questions
+
+
+Name: Joonsu Gha
+Student ID: 21-980-958
+Email: joogha@student.ethz.ch
+
+
+Question 3.1: When changing the output readings from mean membrane potential to mean number of spikes, what would you expect to happen wrt learning if we did not use the surrogate gradient?
+
+
+Answer: --- **Remark** - Answer should be less than 200 words. ---
+If we change the output readings to mean number of spikes, the derivative of the loss function w.r.t weights would have the derivative of the spike trains w.r.t weights, which would be zero everywhere except when the spike occurs, at which the derivative is not defined. This means that learning is unlikely to take place.
+
+Question 3.2: In our current implementation, does the computation of the activation of a neuron in layer l+1 at time t occurs before or after the computation of the activation of a neuron in layer l at time t+1?
+
+Answer: --- **Remark** - Answer should be less than 200 words. ---
+The computation of the activation of a neuron in layer l+1 at time t occurs before the computation of the activation of a neuron in layer l at time t+1.
+
+
+
+
+
+
+
+
+
+
+

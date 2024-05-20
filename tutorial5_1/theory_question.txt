@@ -1,0 +1,29 @@
+Tutorial 5.1 Theory Question
+
+
+Name: Joonsu Gha
+Student ID: 21-980-958
+Email: joogha@student.ethz.ch
+
+
+Question: Observe the performance of the current implementation (i.e. in terms of correctly
+classified images) and discuss what the reason is for obtaining these poor results. As a hint, you can plot the distributions of the weights before and after training using the command line argument --plot_weight_hist.
+
+Answer: --- **Remark** - Answer should be less than 200 words. ---
+
+We can observe that the performance of the current implementation is very poor as it achieves a test accuracy of 40.36%. 
+
+The plot shows the distribution of the weights before and after training, with the left subplot showing the weights for the first layer and the right subplot corresponding to the weights for the second layer.
+
+We can see that the weights for the second layer are different from their initialization after trainng. However, when we look at the left subplot, we observe that the weights for the first layer have not changed at all from its initialization after training, showing that the first layer fails to update to learn the task. 
+
+
+
+
+
+
+
+
+
+
+
